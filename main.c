@@ -2,16 +2,11 @@
 
 int main(void)
 {
-    int op1, op2;
+    int sec;
 
-    printf("Input two integers: ");
-    scanf("%d %d", &op1, &op2);
-    
-    printf("%i + %i = %i\n", op1, op2, op1 + op2);
-    printf("%i - %i = %i\n", op1, op2, op1 - op2);
-    printf("%i * %i = %i\n", op1, op2, op1 * op2);
-    printf("%i / %i = %i\n", op1, op2, op1 / op2);
-    printf("%i %% %i = %i\n", op1, op2, op1 % op2);
+    printf("input the seconds");
+    scanf("%i", &sec);
+    printf("The time is %i : %i\n" , sec/60, sec%60);
 
     return 0;
 
